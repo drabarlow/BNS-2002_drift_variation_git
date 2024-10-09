@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drift and Variation</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Drift and Variation">
+  <meta name="author" content="Dr Axel Barlow">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/zenburn.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/custom.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    
+  <slide class="nobackground">
+    <article class="flexbox vcenter">
+      <span>
+        <img width='300px' src="assets/img/A1_FullColour.svg">
+      </span>
+    </article>
+  </slide>
+    <slide class="title-slide segue nobackground">
+  
+  <aside class="gdbar">
+    <img src="assets/img/LA_Full_colour_reversed.svg">
+  </aside>
+  
+  <hgroup class="auto-fadein">
+    <h1>Drift and Variation</h1>
+    <h2>BNS-2002: Genes, Development, and Evolution</h2>
+    <p>Dr Axel Barlow<br/>email: a.barlow@bangor.ac.uk</p>
+  </hgroup>
+  
+  <article></article>  
+      
+  <footer class = 'license'>
+    <a href='http://creativecommons.org/licenses/by-nc-sa/3.0/'>
+    <img width = '80px' src = 'http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png'>
+    </a>
+  </footer>
+  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  
+  <article data-timings="">
+    <!-- adding bold and italic options -->
+
+<style>
+em {
+  font-style: italic
+}
+strong {
+  font-weight: bold;
+}
+</style>
+
+<h2>Molecular Ecology and Evolution at Bangor (MEEB)</h2>
+
+<ul>
+<li>3rd year module &quot;Molecular ecology and evolution&quot;</li>
+<li><a href="https://www.bangor.ac.uk/meeb">https://www.bangor.ac.uk/meeb</a></li>
+</ul>
+
+<p><img src="./assets/img/meeb_logo_NEW_no_text.jpg" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  
+  <hgroup>
+    <h2>Axel Barlow research group</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Population genomics, Paleogenomics, Conservation genomics</li>
+<li>Dissertation and MSc projects</li>
+</ul>
+
+<p><img src="./assets/img/extinct_animals.png" width="80%" style="display: block; margin: auto;" /></p>
+
+<p><img src="./assets/img/sp4-6.png" width="80%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  
+  <hgroup>
+    <h2>Lecture schedule</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ol>
+<li><strong>Drift and variation (Evolution: Chapter 6)</strong></li>
+<li>Conservation genetics (Evolution: Chapter 6)</li>
+<li>Phylogeny 1 (Evolution: Chapter 16)</li>
+<li>Phylogeny 2 (Evolution: Chapter 16)</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  
+  <hgroup>
+    <h2>Literature</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><strong>Course textbook</strong></p>
+
+<p>Futuyma &amp; Kirkpatrick. Evolution (5th Edition)</p>
+
+<p><em>Available as E-book from library</em></p>
+
+<p><strong>Other papers indicated in lectures</strong></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/511TDdibxIL._AC_UF1000,1000_QL80_.jpg" width="80%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-5" style="background:;">
+  
+  <hgroup>
+    <h2>Key concepts</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  
+  <hgroup>
+    <h2>Modern synthesis</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/Charles_Darwin_by_Julia_Margaret_Cameron_2.jpg" width="80%" style="display: block; margin: auto;" /></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/800px-Gregor_Mendel_2.jpg" width="75%" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  
+  <hgroup>
+    <h2>Population genetics</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p>Provides the mathematical framework of how selection acts on genetic variation resulting in adaptation</p>
+
+<p><em>&quot;Nothing in biology makes sense, except in the light of evolution&quot;</em> (Dobzhansky 1973)</p>
+
+<p><em>&quot;Nothing in evolution makes sense, except in the light of population genetics&quot;</em> (Lynch 2007)</p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  
+  <hgroup>
+    <h2>Genetic locus (plural loci)</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Working definition: &quot;a single position on a chromosome&quot;</li>
+<li>Examples: SNP, gene, exon, mitochondrial DNA</li>
+</ul>
+
+<p><strong>In diploid species</strong></p>
+
+<ul>
+<li>Individuals (mostly) have 2 copies of each locus: 1 from mum, 1 from dad</li>
+<li><em>Except</em> some haploid loci (e.g. Y chr, mtDNA)</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/Gene_Loci_and_Alleles.png" width="75%" style="display: block; margin: auto 0 auto auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-9" style="background:white;">
+  
+  <hgroup>
+    <h2>Alleles</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>An <strong>Allele</strong> is a particular genetic variant of a locus</li>
+<li>An individual is <strong>heterozygous</strong> at a locus when it has different alleles</li>
+<li><strong>Homozygous</strong> is 2 copies of same allele</li>
+<li>We can also measure <strong>allele frequencies</strong></li>
+</ul>
+
+<p><strong>For example</strong></p>
+
+<ul>
+<li>Frequency A and B is 50% (or 0.5)</li>
+<li>Frequencies always sum to 100% (or 1)</li>
+<li>Selection on A increases its frequency</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="assets/fig/unnamed-chunk-8-1.png" width="90%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  
+  <hgroup>
+    <h2>Neutral evolution</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:64%;' class='centered'>
+  <ul>
+<li>Darwin thought about evolution in terms of natural selection</li>
+<li>What if there is no selection?</li>
+<li>Motoo Kimura: Neutral theory of molecular evolution, 1968</li>
+<li>Loci evolve by genetic drift</li>
+<li>Drift is determined by the population size</li>
+<li>Basis of population genetics and phylogenetics</li>
+<li>&quot;Null hypothesis&quot; of molecular evolution</li>
+</ul>
+
+</div>
+<div style='float:right;width:31%;'>
+  <p><img src="./assets/img/Motoo_Kimura.jpg" width="90%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  
+  <hgroup>
+    <h2>How much of the genome is selectivel neutral?</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><strong>Human as an example</strong></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Protein coding sequences = 2%</li>
+<li>Functional 10-20%</li>
+<li>Synonymous mutations</li>
+<li>Introns</li>
+<li>Neutral alleles</li>
+<li><strong>Selection is rare</strong></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/494467_1_En_1_Fig1_HTML.png" width="100%" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-12" style="background:;">
+  
+  <hgroup>
+    <h2>Genetic drift</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  
+  <hgroup>
+    <h2>Definition</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Allele frequencies will change from one generation to the next due to chance events</li>
+<li>includes survival, reproduction, and inheritance.</li>
+</ul>
+
+<h3>This is Genetic drift</h3>
+
+<ul>
+<li>The change occurs at random. </li>
+<li>It does not involve one allele being favoured over another. That is selection (different process)</li>
+<li>Drift affects all loci in the genome</li>
+<li>Drift affects all populations of all species</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-14" style="background:;">
+  
+  <article data-timings="">
+    <p><img src="./assets/img/hedgehog-crossing-street-in-front-of-an-oncoming-car.webp" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  
+  <article data-timings="">
+    <p><img src="./assets/img/family.svg" width="70%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-16" style="background:;">
+  
+  <article data-timings="">
+    <p><img src="./assets/img/MacquarieIslandElephantSeal.JPG" width="90%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-17" style="background:;">
+  
+  <hgroup>
+    <h2>The process visually</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/drift.svg" width="75%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-18" style="background:;">
+  
+  <hgroup>
+    <h2>The process with chocolate</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/Plain-M&Ms-Pile.jpg" width="70%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-19" style="background:;">
+  
+  <hgroup>
+    <h2>Simulator</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <iframe src = 'https://heavywatal.github.io/driftr.js/'></iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  
+  <hgroup>
+    <h2>Obs 1. Drift is unbiased</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <iframe src = 'https://heavywatal.github.io/driftr.js/'></iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-21" style="background:;">
+  
+  <hgroup>
+    <h2>Obs 2. Fluctuations are larger in small populations</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <iframe src = 'https://heavywatal.github.io/driftr.js/'></iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-22" style="background:;">
+  
+  <hgroup>
+    <h2>Obs 2. Fluctuations are larger in small populations</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>This is a sampling effect:</li>
+<li>Small samples are less likely to reflect the starting frequencies.</li>
+<li>Consider flipping a coin 3x vs 3,000x</li>
+<li>Outcomes become more consistent when averaging over a larger number of random events</li>
+<li>Drift is <strong>stronger</strong> in small populations</li>
+<li>Drift is <strong>weaker</strong> in large populations</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/Coin_Toss_(3635981474).jpg" width="80%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-23" style="background:;">
+  
+  <hgroup>
+    <h2>Obs 3. Drift causes populations to become different</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <iframe src = 'https://heavywatal.github.io/driftr.js/'></iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-24" style="background:;">
+  
+  <hgroup>
+    <h2>Obs 3. Drift causes populations to become different</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/Gallotia_stehlini_-Gran_Canaria,_Canary_Islands,_Spain-8.jpg" width="100%" style="display: block; margin: auto;" /></p>
+
+<p><em>Gallotia stehlini</em> Gran Canaria</p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/G_galloti.jpeg" width="100%" style="display: block; margin: auto;" /></p>
+
+<p><em>Gallotia galloti</em> Tenerife</p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-25" style="background:;">
+  
+  <hgroup>
+    <h2>Obs 4. Drift causes a loss of variation</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <iframe src = 'https://heavywatal.github.io/driftr.js/'></iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-26" style="background:;">
+  
+  <hgroup>
+    <h2>Obs 4. Drift causes a loss of variation</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Genetic variation is continually lost</li>
+<li>Rate of loss determined by strength of drift</li>
+<li>Can be replaced by <strong>mutation</strong> or <strong>gene flow</strong></li>
+<li>Example: isogenic lab mice: 20 generations of brother x sister mating</li>
+</ul>
+
+<p><img src="./assets/img/1280px-Scid_mouse.jpg" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-27" style="background:;">
+  
+  <hgroup>
+    <h2>Drift and selection</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-28" style="background:;">
+  
+  <hgroup>
+    <h2>Drift and selection</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:64%;' class='centered'>
+  <p><strong>(positive) Selection</strong></p>
+
+<ul>
+<li>One allele is favoured over another</li>
+<li>Depends on high big the fitness difference is (selection coefficient = <em>s</em>)</li>
+</ul>
+
+<p><strong>Drift</strong></p>
+
+<ul>
+<li>Drift affects all loci in all populations of all species</li>
+<li><strong>Stronger</strong> in small populations and <strong>weaker</strong> in large populations</li>
+</ul>
+
+<p><strong>Both processes</strong></p>
+
+<ul>
+<li>Cause a reduction in diversity</li>
+<li>Cause populations to become different</li>
+</ul>
+
+</div>
+<div style='float:right;width:31%;'>
+  <p><img src="assets/fig/unnamed-chunk-20-1.png" width="100%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-29" style="background:;">
+  
+  <hgroup>
+    <h2>Selection and drift</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <iframe src = 'https://heavywatal.github.io/driftr.js/'></iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-30" style="background:;">
+  
+  <hgroup>
+    <h2>Selection more effective in large populations</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/Drosophila_melanogaster_Proboscis.jpg" width="100%" style="display: block; margin: auto auto auto 0;" /></p>
+
+<ul>
+<li><em>Drosophila melanogaster</em></li>
+<li>population size ~1 million</li>
+<li>s = 0.00001 = adaptive evolution</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/eschrichtius-robustus-01jpg.webp" width="100%" style="display: block; margin: auto auto auto 0;" /></p>
+
+<ul>
+<li>Grey whale</li>
+<li>population size 10,000</li>
+<li>s = 0.00001 = effectively neutral</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-31" style="background:;">
+  
+  <hgroup>
+    <h2>Detecting selection</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Harder than you might think</li>
+<li>Drift is null hypothesis</li>
+<li>Always operates</li>
+<li>Creates similar signal:
+
+<ul>
+<li>change in allele frequencies</li>
+<li>loss of diversity</li>
+<li>population divergence</li>
+</ul></li>
+<li><strong>Look for signal above the background level of drift</strong></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-32" style="background:;">
+  
+  <hgroup>
+    <h2>Hooded and carrion crows</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/Carrion-Crow-black-bird-portrait-of-head-and-looking-at-camera_1.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+
+<p><img src="./assets/img/Nebelkrähe_Corvus_cornix,_Belvedere,_Wien.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/Distribution_of_carrion_and_hooded_crows_across_Europe.jpg" width="100%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-33" style="background:;">
+  
+  <hgroup>
+    <h2>Hooded and carrion crows</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><embed src="./assets/img/1111crow410.full.pdf" width="100%" height="500" type="application/pdf" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-34" style="background:;">
+  
+  <hgroup>
+    <h2>Genetic drift summary</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Allele frequencies will change from one generation to the next due to chance events</li>
+<li>Such as survival, reproduction, and inheritance.</li>
+<li>Drift is unbiased, no allele is favoured</li>
+<li>Drift causes a loss of genetic variation (replaced by mutation or gene flow)</li>
+<li>Strength of drift is larger in small populations</li>
+<li>Drift causes populations to become different</li>
+<li>Selection share some features with drift, but alleles are favoured</li>
+<li>Selection is more effective when drift is weak</li>
+<li>We need to account for drift when testing for selection</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="thank-you-slide segue nobackground" id="slide-35">
+  <aside class="gdbar right"><img src="assets/img/LA_Full_colour_reversed.svg"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>Next time:</h2>
+    <p><strong>Conservation genetics</strong></p>
+
+  </article>
+
+  <p class="auto-fadein" data-config-contact="">
+    
+  </p>
+</slide>
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Axel Barlow research group'>
+         2
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Lecture schedule'>
+         3
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Literature'>
+         4
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Key concepts'>
+         5
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Modern synthesis'>
+         6
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Population genetics'>
+         7
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Genetic locus (plural loci)'>
+         8
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Alleles'>
+         9
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Neutral evolution'>
+         10
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='How much of the genome is selectivel neutral?'>
+         11
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Genetic drift'>
+         12
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Definition'>
+         13
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='NA'>
+         14
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='NA'>
+         15
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='NA'>
+         16
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='The process visually'>
+         17
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='The process with chocolate'>
+         18
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Simulator'>
+         19
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Obs 1. Drift is unbiased'>
+         20
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='Obs 2. Fluctuations are larger in small populations'>
+         21
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='Obs 2. Fluctuations are larger in small populations'>
+         22
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='Obs 3. Drift causes populations to become different'>
+         23
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=24 title='Obs 3. Drift causes populations to become different'>
+         24
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=25 title='Obs 4. Drift causes a loss of variation'>
+         25
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='Obs 4. Drift causes a loss of variation'>
+         26
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=27 title='Drift and selection'>
+         27
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=28 title='Drift and selection'>
+         28
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=29 title='Selection and drift'>
+         29
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=30 title='Selection more effective in large populations'>
+         30
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=31 title='Detecting selection'>
+         31
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=32 title='Hooded and carrion crows'>
+         32
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=33 title='Hooded and carrion crows'>
+         33
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=34 title='Genetic drift summary'>
+         34
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=35 title='Next time:'>
+         35
+      </a>
+    </li>
+    
+    </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
