@@ -89,33 +89,6 @@ include_graphics("./assets/img/511TDdibxIL._AC_UF1000,1000_QL80_.jpg")
 
 --- &twocol
 
-## Modern synthesis
-
-*** =left
-
-```{r, out.width = "80%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
-include_graphics("./assets/img/Charles_Darwin_by_Julia_Margaret_Cameron_2.jpg")
-```
-
-*** =right
-
-```{r, out.width = "75%", dpi = 300, echo = FALSE, fig.align='centre', fig.cap=""}
-include_graphics("./assets/img/800px-Gregor_Mendel_2.jpg")
-```
-
----
-
-## Population genetics
-
-Provides the mathematical framework of how selection acts on genetic variation resulting in adaptation
-
-*"Nothing in biology makes sense, except in the light of evolution"* (Dobzhansky 1973)
-
-*"Nothing in evolution makes sense, except in the light of population genetics"* (Lynch 2007)
-
-
---- &twocol
-
 ## Genetic locus (plural loci)
 
 *** =left
@@ -186,7 +159,7 @@ include_graphics("./assets/img/Motoo_Kimura.jpg")
 --- &twocol
 
 
-## How much of the genome is selectivel neutral?
+## How much of the genome is selectively neutral?
 
 **Human as an example**
 
@@ -251,14 +224,6 @@ include_graphics("./assets/img/drift.svg")
 
 ---
 
-## The process with chocolate
-
-```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
-include_graphics("./assets/img/Plain-M&Ms-Pile.jpg")
-```
-
----
-
 ## Simulator
 
 <iframe src = 'https://heavywatal.github.io/driftr.js/'></iframe>
@@ -307,18 +272,18 @@ include_graphics("./assets/img/Coin_Toss_(3635981474).jpg")
 *** =left
 
 ```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
-include_graphics("./assets/img/Gallotia_stehlini_-Gran_Canaria,_Canary_Islands,_Spain-8.jpg")
+include_graphics("./assets/img/adder_female.JPG")
 ```
 
-*Gallotia stehlini* Gran Canaria
+Adder, Anglesey
 
 *** =right
 
 ```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
-include_graphics("./assets/img/G_galloti.jpeg")
+include_graphics("./assets/img/20240804_122314.jpg")
 ```
 
-*Gallotia galloti* Tenerife
+Adder, Black Forest
 
 ---
 

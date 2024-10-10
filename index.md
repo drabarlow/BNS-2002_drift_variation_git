@@ -79,29 +79,6 @@ Futuyma & Kirkpatrick. Evolution (5th Edition)
 
 --- &twocol
 
-## Modern synthesis
-
-*** =left
-
-<img src="./assets/img/Charles_Darwin_by_Julia_Margaret_Cameron_2.jpg" width="80%" style="display: block; margin: auto;" />
-
-*** =right
-
-<img src="./assets/img/800px-Gregor_Mendel_2.jpg" width="75%" />
-
----
-
-## Population genetics
-
-Provides the mathematical framework of how selection acts on genetic variation resulting in adaptation
-
-*"Nothing in biology makes sense, except in the light of evolution"* (Dobzhansky 1973)
-
-*"Nothing in evolution makes sense, except in the light of population genetics"* (Lynch 2007)
-
-
---- &twocol
-
 ## Genetic locus (plural loci)
 
 *** =left
@@ -137,7 +114,7 @@ Provides the mathematical framework of how selection acts on genetic variation r
 
 *** =right
 
-<img src="assets/fig/unnamed-chunk-8-1.png" width="90%" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-6-1.png" width="90%" style="display: block; margin: auto;" />
 
 --- &thirds
 
@@ -160,7 +137,7 @@ Provides the mathematical framework of how selection acts on genetic variation r
 --- &twocol
 
 
-## How much of the genome is selectivel neutral?
+## How much of the genome is selectively neutral?
 
 **Human as an example**
 
@@ -215,12 +192,6 @@ Provides the mathematical framework of how selection acts on genetic variation r
 
 ---
 
-## The process with chocolate
-
-<img src="./assets/img/Plain-M&Ms-Pile.jpg" width="70%" style="display: block; margin: auto;" />
-
----
-
 ## Simulator
 
 <iframe src = 'https://heavywatal.github.io/driftr.js/'></iframe>
@@ -266,15 +237,15 @@ Provides the mathematical framework of how selection acts on genetic variation r
 
 *** =left
 
-<img src="./assets/img/Gallotia_stehlini_-Gran_Canaria,_Canary_Islands,_Spain-8.jpg" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/adder_female.JPG" width="100%" style="display: block; margin: auto;" />
 
-*Gallotia stehlini* Gran Canaria
+Adder, Anglesey
 
 *** =right
 
-<img src="./assets/img/G_galloti.jpeg" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/20240804_122314.jpg" width="100%" style="display: block; margin: auto;" />
 
-*Gallotia galloti* Tenerife
+Adder, Black Forest
 
 ---
 
@@ -320,7 +291,7 @@ Provides the mathematical framework of how selection acts on genetic variation r
 
 *** =right
 
-<img src="assets/fig/unnamed-chunk-20-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-17-1.png" width="100%" style="display: block; margin: auto;" />
 
 ---
 
