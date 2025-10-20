@@ -1,6 +1,6 @@
 ---
 title       : "Drift and Variation"
-subtitle    : "BNS-2002: Genes, Development, and Evolution"
+subtitle    : "ENS-2400: Evolutionary Biology"
 author      : Dr Axel Barlow
 job         : "email: a.barlow@bangor.ac.uk"
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
